@@ -1,0 +1,24 @@
+{
+  "name": "planning-diffusion-tc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSE-TCW/Planning-diffusion-TC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TSE-TCW/Planning-diffusion-TC/issues"
+  },
+  "homepage": "https://github.com/TSE-TCW/Planning-diffusion-TC#readme",
+  "dependencies": {
+    "trimble-connect-workspace-api": "^0.3.33"
+  }
+}

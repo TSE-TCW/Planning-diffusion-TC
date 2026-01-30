@@ -4,32 +4,13 @@
   <meta charset="UTF-8" />
   <title>Planning de diffusion</title>
 
-  <!-- API Trimble Connect Workspace -->
+  <!-- API Trimble Connect -->
   <script src="https://components.connect.trimble.com/trimble-connect-workspace-api/index.min.js"></script>
 </head>
 <body>
-  <h1>Planning de diffusion</h1>
-  <p id="status">Connexion à Trimble Connect…</p>
+  <h2>Planning de diffusion</h2>
+  <p id="status">Chargement…</p>
 
-  <script>
-    async function init() {
-      if (!window.Extensions) {
-        document.getElementById("status").innerText =
-          "❌ API Trimble Connect non disponible";
-        return;
-      }
-
-      try {
-        const api = await Extensions.connect(window.parent);
-        document.getElementById("status").innerText =
-          "✅ Connecté à Trimble Connect";
-      } catch (e) {
-        document.getElementById("status").innerText =
-          "❌ Erreur de connexion Trimble";
-      }
-    }
-
-    init();
-  </script>
+  <script src="./main.js"></script>
 </body>
 </html>
